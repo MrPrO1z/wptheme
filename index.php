@@ -6,7 +6,6 @@
     <!-- Intro Section
     ================================================== -->
     <section id="intro">
-
         <!-- Flexslider Start-->
         <div id="intro-slider" class="flexslider">
 
