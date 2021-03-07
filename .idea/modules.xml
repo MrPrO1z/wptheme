@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Sparrow101/.idea/Sparrow101.iml" filepath="$PROJECT_DIR$/../Sparrow101/.idea/Sparrow101.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Test Theme.iml" filepath="$PROJECT_DIR$/.idea/Test Theme.iml" />
+    </modules>
+  </component>
+</project>
