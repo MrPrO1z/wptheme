@@ -16,7 +16,7 @@
                     <div class="row">
                         <div class="twelve columns">
                             <div class="slider-text">
-                                <h1>Free amazing site template<span>.</span></h1>
+                                <h1>Главна страница сайта<span></span></h1>
                                 <p>Aenean condimentum, lacus sit amet luctus lobortis, dolores et quas molestias excepturi
                                     enim tellus ultrices elit, amet consequat enim elit noneas sit amet luctu. lacus sit amet luctus lobortis, dolores et quas molestias excepturi
                                     enim tellus ultrices elit.</p>
@@ -33,7 +33,7 @@
                     <div class="row">
                         <div class="twelve columns">
                             <div class="slider-text">
-                                <h1>Responsive + HTML5 + CSS3<span>.</span></h1>
+                                <h1>Слайдер на главной странице<span></span></h1>
                                 <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
                                     deleniti eos et accusamus. amet consequat enim elit noneas sit amet luctu. lacus sit amet luctus lobortis.
                                     Aenean condimentum, lacus sit amet luctus.</p>

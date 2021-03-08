@@ -26,6 +26,7 @@
             </span>
         </p>
     </div>
+
     <div class="post-thumb">
         <a href="<?php the_permalink() ?>" title=""><?php the_post_thumbnail('post_thumb') ?></a>
     </div>
@@ -33,5 +34,7 @@
         <?php
         the_content();
         ?>
+
     </div>
+
 </article> <!-- post end -->

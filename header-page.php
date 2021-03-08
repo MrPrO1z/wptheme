@@ -47,7 +47,7 @@
             <nav id="nav-wrap">
 
                 <?php wp_nav_menu( [
-                    'theme_location'  => 'footer',
+                    'theme_location'  => 'top',
                     'container' => 'null',
                     'menu_class' => 'nav',
                     'menu_id' => 'nav',

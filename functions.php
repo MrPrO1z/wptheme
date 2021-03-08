@@ -6,6 +6,12 @@ add_action('after_setup_theme', 'theme_register_nav_menu');
 
 add_action('widgets_init', 'register_my_widgets');
 
+add_filter('the_content', 'test_content');
+function test_content($content) {
+	$content.= 'Спасибо за прочтение';
+	return $content;
+}
+
 add_filter('document_title_separator', 'my_sep');
 function my_sep($sep)
 {
@@ -93,3 +99,19 @@ function register_my_widgets()
 
     ));
 }
+
+add_shortcode( 'iframe', 'Generate_iframe' );
+
+function Generate_iframe( $atts ) {
+	$atts = shortcode_atts( array(
+		'href'   => 'https://wp-kama.ru/',
+		'height' => '600px',
+		'width'  => '300px',
+	), $atts );
+
+	return '<iframe src="'. $atts['href'] .'" width="'. $atts['width'] .'" height="'. $atts['height'] .'"> <p>Your Browser does not support Iframes.</p></iframe>';
+}
+
+// использование:
+// [iframe href="http://www.exmaple.com" height="480" width="640"]
+
